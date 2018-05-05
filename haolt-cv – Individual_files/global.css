@@ -16,3 +16,38 @@
 }
 
 .not-copy { user-select: none; }
+
+
+@media (max-width: 768px ){
+  .fixed-menu {
+    position: fixed!important;
+    z-index: 888!important;
+    margin-top: -50px;
+}
+.elementor-element-populated a {
+  font-size: 10px;
+}
+.elementor-208 .elementor-element.elementor-element-d775664 {
+  margin-top: 15px !important;
+}
+}
+
+
+@media (max-width: 414px ) {
+  .elementor-icon i {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+    margin-top: 23px;
+    font-size: 19px;
+}
+
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated {
+    padding: 12px;
+    margin-bottom: 8px;
+}
+.elementor-208 .elementor-element.elementor-element-d775664 {
+    margin-top: 50px !important;
+}
+}
